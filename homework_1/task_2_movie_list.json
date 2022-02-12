@@ -1,0 +1,565 @@
+{
+    "pagesCount": 1,
+    "films": [
+        {
+            "filmId": 1313198,
+            "nameRu": "Варяг",
+            "nameEn": "The Northman",
+            "year": "2022",
+            "filmLength": "2:20",
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "боевик"
+                },
+                {
+                    "genre": "триллер"
+                },
+                {
+                    "genre": "драма"
+                }
+            ],
+            "rating": "98%",
+            "ratingVoteCount": 14064,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1313198.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1313198.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 1405508,
+            "nameRu": "Операция «Фортуна»: Искусство побеждать",
+            "nameEn": "Operation Fortune: Ruse de guerre",
+            "year": "2022",
+            "filmLength": "1:54",
+            "countries": [
+                {
+                    "country": "Китай"
+                },
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "боевик"
+                },
+                {
+                    "genre": "триллер"
+                },
+                {
+                    "genre": "комедия"
+                }
+            ],
+            "rating": "98%",
+            "ratingVoteCount": 14179,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1405508.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1405508.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 4308624,
+            "nameRu": "Затерянный город",
+            "nameEn": "The Lost City",
+            "year": "2022",
+            "filmLength": "1:32",
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "боевик"
+                },
+                {
+                    "genre": "комедия"
+                },
+                {
+                    "genre": "приключения"
+                }
+            ],
+            "rating": "98%",
+            "ratingVoteCount": 12129,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4308624.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4308624.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 1219909,
+            "nameRu": "Доктор Стрэндж: В мультивселенной безумия",
+            "nameEn": "Doctor Strange in the Multiverse of Madness",
+            "year": "2022",
+            "filmLength": null,
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "ужасы"
+                },
+                {
+                    "genre": "фантастика"
+                },
+                {
+                    "genre": "фэнтези"
+                }
+            ],
+            "rating": "97%",
+            "ratingVoteCount": 53511,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1219909.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1219909.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 1282688,
+            "nameRu": "Тор: Любовь и гром",
+            "nameEn": "Thor: Love and Thunder",
+            "year": "2022",
+            "filmLength": null,
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "фэнтези"
+                },
+                {
+                    "genre": "боевик"
+                },
+                {
+                    "genre": "приключения"
+                }
+            ],
+            "rating": "96%",
+            "ratingVoteCount": 31098,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1282688.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1282688.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 1100425,
+            "nameRu": "Морбиус",
+            "nameEn": "Morbius",
+            "year": "2022",
+            "filmLength": "1:48",
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "ужасы"
+                },
+                {
+                    "genre": "фантастика"
+                },
+                {
+                    "genre": "боевик"
+                }
+            ],
+            "rating": "95%",
+            "ratingVoteCount": 47912,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1100425.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1100425.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 1115098,
+            "nameRu": "Мир Юрского периода: Господство",
+            "nameEn": "Jurassic World Dominion",
+            "year": "2022",
+            "filmLength": "2:08",
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "фантастика"
+                },
+                {
+                    "genre": "боевик"
+                },
+                {
+                    "genre": "триллер"
+                }
+            ],
+            "rating": "94%",
+            "ratingVoteCount": 18257,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1115098.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1115098.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 590286,
+            "nameRu": "Бэтмен",
+            "nameEn": "The Batman",
+            "year": "2022",
+            "filmLength": "2:55",
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "боевик"
+                },
+                {
+                    "genre": "драма"
+                },
+                {
+                    "genre": "криминал"
+                }
+            ],
+            "rating": "94%",
+            "ratingVoteCount": 68236,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/590286.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/590286.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 925994,
+            "nameRu": "Звёздный путь 4",
+            "nameEn": "Untitled Star Trek Sequel",
+            "year": "2023",
+            "filmLength": null,
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "фантастика"
+                },
+                {
+                    "genre": "боевик"
+                },
+                {
+                    "genre": "триллер"
+                }
+            ],
+            "rating": "93%",
+            "ratingVoteCount": 17943,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/925994.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/925994.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 732625,
+            "nameRu": "Ампир V",
+            "nameEn": null,
+            "year": "2022",
+            "filmLength": "2:20",
+            "countries": [
+                {
+                    "country": "Россия"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "фэнтези"
+                },
+                {
+                    "genre": "драма"
+                }
+            ],
+            "rating": "93%",
+            "ratingVoteCount": 27458,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/732625.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/732625.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 1267348,
+            "nameRu": "Джон Уик 4",
+            "nameEn": "John Wick: Chapter 4",
+            "year": "2023",
+            "filmLength": null,
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "боевик"
+                },
+                {
+                    "genre": "триллер"
+                },
+                {
+                    "genre": "криминал"
+                }
+            ],
+            "rating": "92%",
+            "ratingVoteCount": 34543,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1267348.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1267348.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 505898,
+            "nameRu": "Аватар 2",
+            "nameEn": "Avatar 2",
+            "year": "2022",
+            "filmLength": null,
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "фантастика"
+                },
+                {
+                    "genre": "боевик"
+                },
+                {
+                    "genre": "триллер"
+                }
+            ],
+            "rating": "90%",
+            "ratingVoteCount": 136923,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/505898.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/505898.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 572032,
+            "nameRu": "Топ Ган: Мэверик",
+            "nameEn": "Top Gun: Maverick",
+            "year": "2022",
+            "filmLength": null,
+            "countries": [
+                {
+                    "country": "Китай"
+                },
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "боевик"
+                },
+                {
+                    "genre": "драма"
+                }
+            ],
+            "rating": "89%",
+            "ratingVoteCount": 24884,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/572032.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/572032.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 843772,
+            "nameRu": "Фантастические твари: Тайны Дамблдора",
+            "nameEn": "Fantastic Beasts: The Secrets of Dumbledore",
+            "year": "2022",
+            "filmLength": null,
+            "countries": [
+                {
+                    "country": "США"
+                },
+                {
+                    "country": "Великобритания"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "фэнтези"
+                },
+                {
+                    "genre": "приключения"
+                },
+                {
+                    "genre": "семейный"
+                }
+            ],
+            "rating": "89%",
+            "ratingVoteCount": 69916,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/843772.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/843772.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 806964,
+            "nameRu": "Неудержимые 4",
+            "nameEn": "The Expendables 4",
+            "year": null,
+            "filmLength": null,
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "боевик"
+                },
+                {
+                    "genre": "триллер"
+                },
+                {
+                    "genre": "приключения"
+                }
+            ],
+            "rating": "88%",
+            "ratingVoteCount": 12457,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/806964.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/806964.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 195483,
+            "nameRu": "Флэш",
+            "nameEn": "The Flash",
+            "year": "2022",
+            "filmLength": null,
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "фантастика"
+                },
+                {
+                    "genre": "фэнтези"
+                },
+                {
+                    "genre": "боевик"
+                }
+            ],
+            "rating": "88%",
+            "ratingVoteCount": 47472,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/195483.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/195483.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 570402,
+            "nameRu": "Аватар 3",
+            "nameEn": "Avatar 3",
+            "year": "2024",
+            "filmLength": null,
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "фантастика"
+                },
+                {
+                    "genre": "фэнтези"
+                },
+                {
+                    "genre": "боевик"
+                }
+            ],
+            "rating": "87%",
+            "ratingVoteCount": 47522,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/570402.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/570402.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 959062,
+            "nameRu": "Форсаж 10",
+            "nameEn": "Fast & Furious 10",
+            "year": "2023",
+            "filmLength": null,
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "боевик"
+                },
+                {
+                    "genre": "триллер"
+                },
+                {
+                    "genre": "криминал"
+                }
+            ],
+            "rating": "85%",
+            "ratingVoteCount": 21494,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/959062.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/959062.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 783486,
+            "nameRu": "Аватар 4",
+            "nameEn": "Avatar 4",
+            "year": "2026",
+            "filmLength": null,
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "фантастика"
+                },
+                {
+                    "genre": "фэнтези"
+                },
+                {
+                    "genre": "боевик"
+                }
+            ],
+            "rating": "84%",
+            "ratingVoteCount": 27477,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/783486.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/783486.jpg",
+            "ratingChange": null
+        },
+        {
+            "filmId": 468846,
+            "nameRu": "Индиана Джонс 5",
+            "nameEn": "Untitled Indiana Jones Project",
+            "year": "2023",
+            "filmLength": null,
+            "countries": [
+                {
+                    "country": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "genre": "боевик"
+                },
+                {
+                    "genre": "приключения"
+                }
+            ],
+            "rating": "84%",
+            "ratingVoteCount": 33802,
+            "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/468846.jpg",
+            "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/468846.jpg",
+            "ratingChange": null
+        }
+    ]
+}
