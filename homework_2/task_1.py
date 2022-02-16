@@ -52,6 +52,7 @@ if response.ok:
 
     for x in range(expected_last_page+1):
         response = requests.request("GET", base_url, headers=headers, params=querystring)
+        querystring["page"] = x
         dom = BeautifulSoup(response.text, "html.parser")
         positions = dom.find_all("div", {"class": "vacancy-serp-item"})
 
@@ -97,7 +98,7 @@ pprint(positions_list)
 выводит в терминале:
 
 страниц с данными:5
-всего позиций:120
+всего позиций:115
 [{'currency': 'Not Indicated',
   'max_compensation': 'Not Indicated',
   'min_compensation': 'Not Indicated',
