@@ -1,23 +1,12 @@
 """
-Необходимо собрать информацию о вакансиях на вводимую должность
-(используем input или через аргументы получаем должность)
-с сайтов HH(обязательно) и/или Superjob(по желанию).
-Приложение должно анализировать несколько страниц сайта (также вводим через input или аргументы).
-Получившийся список должен содержать в себе минимум:
-
-    Наименование вакансии.
-    Предлагаемую зарплату (разносим в три поля: минимальная и максимальная и валюта. цифры преобразуем к цифрам).
-    Ссылку на саму вакансию.
-    Сайт, откуда собрана вакансия.
-
-По желанию можно добавить ещё параметры вакансии (например, работодателя и расположение).
-Структура должна быть одинаковая для вакансий с обоих сайтов.
-Общий результат можно вывести с помощью dataFrame через pandas. Сохраните в json либо csv.
+1. Развернуть у себя на компьютере/виртуальной машине/хостинге MongoDB и реализовать функцию,
+которая будет добавлять только новые вакансии/продукты в вашу базу.
 """
 
 import requests
 from bs4 import BeautifulSoup
 from pymongo import MongoClient
+from pymongo.errors import DuplicateKeyError
 from pprint import pprint
 
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0"
@@ -65,6 +54,7 @@ if response.ok:
             position_name_data = position.find('a', {"data-qa": "vacancy-serp__vacancy-title"})
             position_name = position_name_data.getText()
             position_link = position_name_data["href"].split("?", 1)[0]
+            position_id = position_link.split("/")[4]
 
             position_compensation = position.find('span', {"data-qa": "vacancy-serp__vacancy-compensation"})
             if position_compensation is None:
@@ -85,7 +75,7 @@ if response.ok:
                     min_compensation = int(''.join(filter(str.isdigit, position_compensation.split("–", 1)[0])))
                     max_compensation = int(''.join(filter(str.isdigit, position_compensation.split("–", 1)[1])))
 
-
+            position_data["_id"] = position_id
             position_data["position_source"] = vacancy_source
             position_data["position_name"] = position_name
             position_data["position_link"] = position_link
@@ -95,45 +85,22 @@ if response.ok:
 
             positions_list.append(position_data)
 
+client = MongoClient('localhost', 27017)
+data_base = client["positions_database"]
 
+positions_collection = data_base.positions_collection
+
+try:
+    for position in positions_list:
+        positions_collection.insert_one(position)
+
+except DuplicateKeyError:
+    print(f'Duplicate key error, item with id {position.get("_id")} skipped')
+
+print("данные добавлены в базу данных")
 print(f'всего позиций: {len(positions_list)}')
-pprint(positions_list)
 
-"""
-выводит в терминале:
 
-страниц с данными:5
-всего позиций:115
-[{'currency': 'Not Indicated',
-  'max_compensation': 'Not Indicated',
-  'min_compensation': 'Not Indicated',
-  'position_link': 'https://hh.ru/vacancy/51629618',
-  'position_name': 'Python разработчик',
-  'position_source': 'hh.ru'},
- {'currency': 'Not Indicated',
-  'max_compensation': 'Not Indicated',
-  'min_compensation': 'Not Indicated',
-  'position_link': 'https://hh.ru/vacancy/51882397',
-  'position_name': 'Scala разработчик',
-  'position_source': 'hh.ru'},
- {'currency': 'руб.',
-  'max_compensation': 380000,
-  'min_compensation': 'Not Indicated',
-  'position_link': 'https://hh.ru/vacancy/49590587',
-  'position_name': 'Python разработчик',
-  'position_source': 'hh.ru'},
- {'currency': 'руб.',
-  'max_compensation': 'Not Indicated',
-  'min_compensation': 150000,
-  'position_link': 'https://hh.ru/vacancy/52217658',
-  'position_name': 'Python разработчик / программист Python (Python Developer)',
-  'position_source': 'hh.ru'},
- {'currency': 'руб.',
-  'max_compensation': 280000,
-  'min_compensation': 120000,
-  'position_link': 'https://hh.ru/vacancy/52296666',
-  'position_name': 'Python Developer',
-  'position_source': 'hh.ru'},
-  ....
-  и т.д.
-"""
+
+
+
